@@ -1,4 +1,4 @@
-package org.dexter.generic.core;
+package org.dexter.generic.media.core;
 
 import java.util.ArrayList;
 import java.util.List;

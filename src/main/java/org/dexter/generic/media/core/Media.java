@@ -1,4 +1,4 @@
-package org.dexter.generic.core;
+package org.dexter.generic.media.core;
 
 public abstract class Media {
 

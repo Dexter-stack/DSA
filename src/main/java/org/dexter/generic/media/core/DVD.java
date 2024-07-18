@@ -1,4 +1,4 @@
-package org.dexter.generic.core;
+package org.dexter.generic.media.core;
 
 public class DVD extends  Media{
     private int duration;

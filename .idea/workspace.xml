@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="002ef5d2-8c69-4cef-b14a-6f9ec2eb32be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/core/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/core/DVD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/core/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/core/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/core/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/DrawPolygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/Pentagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/Polygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/Quadilateral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

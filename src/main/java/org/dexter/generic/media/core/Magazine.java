@@ -1,4 +1,4 @@
-package org.dexter.generic.core;
+package org.dexter.generic.media.core;
 
 public class Magazine extends Media{
     private String issue;

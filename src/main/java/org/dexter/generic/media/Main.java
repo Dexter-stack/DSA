@@ -1,9 +1,9 @@
-package org.dexter.generic;
+package org.dexter.generic.media;
 
-import org.dexter.generic.core.Book;
-import org.dexter.generic.core.DVD;
-import org.dexter.generic.core.Library;
-import org.dexter.generic.core.Magazine;
+import org.dexter.generic.media.core.Book;
+import org.dexter.generic.media.core.DVD;
+import org.dexter.generic.media.core.Library;
+import org.dexter.generic.media.core.Magazine;
 
 public class Main {
 
