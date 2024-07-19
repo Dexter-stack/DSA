@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="002ef5d2-8c69-4cef-b14a-6f9ec2eb32be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/DrawPolygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/Pentagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/Quadilateral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/generic/polygon/core/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/ArrayD/Game/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/ArrayD/Game/core/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/ArrayD/Game/core/ScoreBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +38,11 @@
     "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/DSA/src/main/java/org/dexter/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.dexter.generic.media" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
