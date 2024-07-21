@@ -17,6 +17,7 @@ public class Main {
 
         Character [] character = {'E','A','F','J','C','D','B'};
 
+
         System.out.println(Arrays.toString(InsertSort.insertionSortGeneric(character)));
     }
 }

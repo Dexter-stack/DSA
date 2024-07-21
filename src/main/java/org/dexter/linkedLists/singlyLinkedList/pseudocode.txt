@@ -1,0 +1,21 @@
+Algorithm addFirst(e):
+newest = Node(e) {create new node instance storing reference to element e}
+newest.next = head {set new node’s next to reference the old head node}
+head = newest {set variable head to reference the new node}
+size = size+1
+
+
+
+Algorithm addLast(e):
+newest =  Node(e)
+newest.next = null
+tail.next  = newest
+tail =  newest
+size = size+1
+
+
+Algorithm removeFirst():
+if head == null then
+  the list is empty
+head = head.next
+size =  size -1

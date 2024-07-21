@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="002ef5d2-8c69-4cef-b14a-6f9ec2eb32be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/ArrayD/InsertArray/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/ArrayD/InsertArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/pseudocode.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dexter/ArrayD/InsertArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dexter/ArrayD/InsertArray/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
       <recent name="org.dexter.generic.media" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.org.dexter.linkedLists.singlyLinkedList.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dexter.ArrayD.InsertArray.Main" />
       <module name="DSA" />
@@ -56,8 +58,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.dexter.linkedLists.singlyLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dexter.linkedLists.singlyLinkedList.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dexter.linkedLists.singlyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.dexter.linkedLists.singlyLinkedList.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
