@@ -61,6 +61,39 @@ public class SingleLinkedList2 {
 
     }
 
+    public void insertAtPostionOne(int data, int position){
+        ListNode node = new ListNode(data);
+        if(position == 1){
+            node.next = head; // link the head with new node
+            head = node;    // assign new node to the head
+
+        }else{
+            ListNode previous  =  head;  // assign head to the previous node
+            int count =1;
+            while(count < position-1){
+                previous = previous.next; // move to next new previous
+                count++;
+            }
+            ListNode currentNode = previous.next;  // the main node we want to shift not to break the link created a temp node
+            previous.next = node;  //link the new node to the current node (the node to be shifted)
+            node.next = currentNode;  // assign the new node the previous node
+
+
+        }
+
+
+
+    }
+
+
+    /*
+    Q. Implement method to insert a node at a given position. Assuming position to be valid and stating from 1.
+
+    for example - Given following singly Linked List
+    head->10->1->8->11->null
+
+     */
+
 
 
 
@@ -81,7 +114,8 @@ public class SingleLinkedList2 {
         list2.insertFirst(65);
         list2.insertFirst(40);
         list2.insertFirst(78);
-        list2.insertLast(60);
+        //list2.insertLast(60);
+        list2.insertAtPostionOne(100,4);
 
         list2.displayNode();
         System.out.println(list2.size());
