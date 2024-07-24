@@ -61,7 +61,15 @@ public class SingleLinkedList2 {
 
     }
 
-    public void insertAtPostionOne(int data, int position){
+     /*
+    Q. Implement method to insert a node at a given position. Assuming position to be valid and stating from 1.
+
+    for example - Given following singly Linked List
+    head->10->1->8->11->null
+
+     */
+
+    public void insertAtNPostion(int data, int position){
         ListNode node = new ListNode(data);
         if(position == 1){
             node.next = head; // link the head with new node
@@ -145,15 +153,28 @@ public class SingleLinkedList2 {
     }
 
 
+    public boolean search(int searchKey){
+
+        if(head == null)
+            return false;
+
+        ListNode currentNode =  head;
+
+        while (currentNode != null){
+
+            if(currentNode.data == searchKey){
+                return  true;
+            }
+            currentNode = currentNode.next;
+        }
+        return false;
+
+    }
 
 
-    /*
-    Q. Implement method to insert a node at a given position. Assuming position to be valid and stating from 1.
 
-    for example - Given following singly Linked List
-    head->10->1->8->11->null
 
-     */
+
 
 
 
@@ -176,17 +197,29 @@ public class SingleLinkedList2 {
         list2.insertFirst(40);
         list2.insertFirst(78);
         list2.insertLast(60);
-        list2.insertAtPostionOne(100,4);
-        list2.displayNode();
-        System.out.println(list2.deleteLast());
-        list2.displayNode();
-        System.out.println( list2.deleteNPosition(2).data);  //78-->65-->100-->30-->null
-
-        list2.displayNode();
+        list2.insertAtNPostion(100,4);
+//        list2.displayNode();
+//        System.out.println(list2.deleteLast());
+//        list2.displayNode();
+//        System.out.println( list2.deleteNPosition(2).data);  //78-->65-->100-->30-->null
+//
+//        list2.displayNode();
 //        System.out.println(list2.size());
 //        System.out.println(list2.deleteFirst().data);
 //
 //        list2.displayNode();
+
+
+        /*
+        search method implemented
+         */
+        if(list2.search(200)){
+            System.out.println("key found");
+        }else {
+            System.out.println("key not found");
+        }
+
+
 
     }
 

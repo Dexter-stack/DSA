@@ -7,6 +7,7 @@
     <list default="true" id="002ef5d2-8c69-4cef-b14a-6f9ec2eb32be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SingleLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SingleLinkedList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SingleLinkedListGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SingleLinkedListGeneric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
