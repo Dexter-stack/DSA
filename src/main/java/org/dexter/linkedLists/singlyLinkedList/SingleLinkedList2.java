@@ -75,15 +75,76 @@ public class SingleLinkedList2 {
                 count++;
             }
             ListNode currentNode = previous.next;  // the main node we want to shift not to break the link created a temp node
-            previous.next = node;  //link the new node to the current node (the node to be shifted)
-            node.next = currentNode;  // assign the new node the previous node
+            previous.next = node;  // previous pointing to the new node
+            node.next = currentNode;  // pointing new node to the shifted node
 
 
         }
 
 
 
+
+
+
+
     }
+
+    public ListNode deleteFirst(){
+
+        if(head == null){
+            return  null;
+        }
+        ListNode tempNode =  head;  // create a temp node to hold the head
+        head = head.next; // shift the head to the next node
+        tempNode.next = null;  // breaking the link of the deleted value
+        return tempNode;
+
+    }
+
+
+    public ListNode deleteLast(){
+        if(head == null || head.next == null){
+            return  head;
+        }
+
+        //create two pointers
+
+        ListNode currentNode = head;
+        ListNode previousNode = null;
+        while (currentNode.next != null){
+            previousNode = currentNode;   // current node and previous point at same node  // second to the last node
+            currentNode = previousNode.next; // current node a step further // last node
+        }
+        previousNode.next = null;
+        return currentNode;
+
+    }
+
+    /*
+    Q. Implement method to delete a node at a given position. Assuming position to be valid and starting from 1.
+     */
+
+    public  ListNode deleteNPosition(int position){
+        if(position ==1){
+            ListNode temp = head;
+            head = head.next;
+            temp.next = null;
+            return temp;
+
+        }
+
+        int count =1;
+       ListNode previousNode = head;
+       while (count<position-1){
+           previousNode = previousNode.next;
+           count++;
+       }
+       ListNode currentNode = previousNode.next;  // node to be deleted
+       previousNode.next = currentNode.next;     // linking the next node with the previous one
+        return currentNode;
+    }
+
+
 
 
     /*
@@ -114,11 +175,19 @@ public class SingleLinkedList2 {
         list2.insertFirst(65);
         list2.insertFirst(40);
         list2.insertFirst(78);
-        //list2.insertLast(60);
+        list2.insertLast(60);
         list2.insertAtPostionOne(100,4);
+        list2.displayNode();
+        System.out.println(list2.deleteLast());
+        list2.displayNode();
+        System.out.println( list2.deleteNPosition(2).data);  //78-->65-->100-->30-->null
 
         list2.displayNode();
-        System.out.println(list2.size());
+//        System.out.println(list2.size());
+//        System.out.println(list2.deleteFirst().data);
+//
+//        list2.displayNode();
+
     }
 
 
