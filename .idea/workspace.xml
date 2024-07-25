@@ -42,7 +42,7 @@
       <recent name="org.dexter.generic.media" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedList2">
+  <component name="RunManager" selected="Application.SingleLinkedListGeneric">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dexter.ArrayD.InsertArray.Main" />
       <module name="DSA" />
@@ -110,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleLinkedList2" />
         <item itemvalue="Application.SingleLinkedListGeneric" />
+        <item itemvalue="Application.SingleLinkedList2" />
         <item itemvalue="Application.org.dexter.linkedLists.singlyLinkedList.Main" />
         <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.Main" />

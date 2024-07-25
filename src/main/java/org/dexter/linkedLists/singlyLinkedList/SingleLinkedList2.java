@@ -172,6 +172,25 @@ public class SingleLinkedList2 {
     }
 
 
+    public ListNode reverse(){
+
+        if(head == null){
+            return null;
+        }
+        ListNode currentNode =  head;
+        ListNode previousNode =  null;
+        ListNode nextNode =  null;
+        while (currentNode != null){
+            nextNode = currentNode.next;
+            currentNode.next=previousNode;
+            previousNode = currentNode;
+            currentNode = nextNode;
+        }
+        head =  previousNode;
+        return previousNode;
+    }
+
+
 
 
 
@@ -197,7 +216,7 @@ public class SingleLinkedList2 {
         list2.insertFirst(40);
         list2.insertFirst(78);
         list2.insertLast(60);
-        list2.insertAtNPostion(100,4);
+//        list2.insertAtNPostion(100,4);
 //        list2.displayNode();
 //        System.out.println(list2.deleteLast());
 //        list2.displayNode();
@@ -213,12 +232,20 @@ public class SingleLinkedList2 {
         /*
         search method implemented
          */
-        if(list2.search(200)){
-            System.out.println("key found");
-        }else {
-            System.out.println("key not found");
-        }
+//        if(list2.search(200)){
+//            System.out.println("key found");
+//        }else {
+//            System.out.println("key not found");
+//        }
 
+        /*
+        reverse method implemented
+
+         */
+        list2.displayNode();
+        System.out.println(  list2.reverse().data);
+
+          list2.displayNode();
 
 
     }
