@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="002ef5d2-8c69-4cef-b14a-6f9ec2eb32be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/leetCode/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SingleLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SingleLinkedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SingleLinkedListGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dexter/linkedLists/singlyLinkedList/SingleLinkedListGeneric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +41,7 @@
       <recent name="org.dexter.generic.media" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedListGeneric">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dexter.ArrayD.InsertArray.Main" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dexter.ArrayD.InsertArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="SingleLinkedList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dexter.linkedLists.singlyLinkedList.SingleLinkedList2" />
       <module name="DSA" />
@@ -95,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dexter.linkedLists.singlyLinkedList.leetCode.Solution" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dexter.linkedLists.singlyLinkedList.leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.dexter.linkedLists.singlyLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dexter.linkedLists.singlyLinkedList.Main" />
       <module name="DSA" />
@@ -110,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SingleLinkedListGeneric" />
         <item itemvalue="Application.SingleLinkedList2" />
         <item itemvalue="Application.org.dexter.linkedLists.singlyLinkedList.Main" />
         <item itemvalue="Application.SinglyLinkedList" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
