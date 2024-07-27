@@ -1,5 +1,7 @@
 package org.dexter.linkedLists.singlyLinkedList;
 
+import org.w3c.dom.Node;
+
 public class SingleLinkedList2 {
 
     private ListNode head;
@@ -115,6 +117,9 @@ public class SingleLinkedList2 {
             return  head;
         }
 
+
+
+
         //create two pointers
 
         ListNode currentNode = head;
@@ -126,6 +131,36 @@ public class SingleLinkedList2 {
         previousNode.next = null;
         return currentNode;
 
+    }
+
+
+    public ListNode removeNthFromEnd( int n) {
+
+        int count = 0;
+        ListNode mainPointer = head;
+        ListNode referencePointer = head;
+        ListNode previousNode = null;
+
+        while (count < n) {
+
+            referencePointer = referencePointer.next;
+            count++;
+
+        }
+        if (referencePointer == null) {
+            return head.next;
+        }
+
+        while (referencePointer != null) {
+
+            referencePointer = referencePointer.next;
+            previousNode = mainPointer;
+            mainPointer = mainPointer.next;
+
+        }
+
+       previousNode.next = mainPointer.next;
+        return  mainPointer;
     }
 
     /*
@@ -211,11 +246,17 @@ public class SingleLinkedList2 {
 //        listNode.next = listNode1;  // 30-->65-->40
 //        listNode1.next = listNode2; // 30-->65-->40-->78-->null
 
-        list2.insertFirst(30);
-        list2.insertFirst(65);
-        list2.insertFirst(40);
-        list2.insertFirst(78);
-        list2.insertLast(60);
+//        list2.insertFirst(30);
+//        list2.insertFirst(65);
+//        list2.insertFirst(40);
+//        list2.insertFirst(78);
+//        list2.insertLast(60);
+
+        list2.insertAtNPostion(1,1);
+        list2.insertAtNPostion(2,2);
+        list2.insertAtNPostion(3,3);
+        list2.insertAtNPostion(4,4);
+        list2.insertAtNPostion(5,5);
 //        list2.insertAtNPostion(100,4);
 //        list2.displayNode();
 //        System.out.println(list2.deleteLast());
@@ -243,8 +284,9 @@ public class SingleLinkedList2 {
 
          */
         list2.displayNode();
-        System.out.println(  list2.reverse().data);
+       // System.out.println(  list2.reverse().data);
 
+        System.out.println(list2.removeNthFromEnd(2).data);
           list2.displayNode();
 
 
